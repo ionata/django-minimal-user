@@ -1,0 +1,5 @@
+requirements:
+  - requirements-production.txt:
+      schedule: "every week"
+      update: insecure
+      pin: True

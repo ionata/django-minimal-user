@@ -1,3 +1,6 @@
+.env
 venv
+build/
+dist/
 docs/_*/
 *.egg-info/
