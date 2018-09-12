@@ -1,5 +1,6 @@
 """ Replace the existing user class with our own in the admin """
 from django import forms  # type: ignore
+from django.contrib import admin  # type: ignore
 from django.contrib.auth import get_user_model  # type: ignore
 from django.contrib.auth import password_validation  # type: ignore
 from django.contrib.auth import admin as auth_admin  # type: ignore
@@ -49,6 +50,7 @@ _add_fieldsets = {
 }
 
 
+@admin.register(get_user_model())
 class UserAdmin(auth_admin.UserAdmin):
     """ The admin interface for the user model """
     form = UserChangeForm
