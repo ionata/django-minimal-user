@@ -1,4 +1,6 @@
 # DEV
+# 0.9.1
+- Fixes MANIFEST.in
 # 0.9.0
 - Moves serializers to drf scope
 - Adds more serializers
