@@ -2,5 +2,6 @@ include CHANGELOG.md
 include LICENSE
 include README.md
 include requirements-production.txt
+include requirements-extras-drf.txt
 recursive-exclude * .mypy_cache
 recursive-include minimal_user *.py

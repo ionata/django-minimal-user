@@ -1,4 +1,5 @@
 # DEV
+- Add drf dependencies as optional package extras
 # 0.9.1
 - Fixes MANIFEST.in
 # 0.9.0

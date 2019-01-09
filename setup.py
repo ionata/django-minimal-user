@@ -24,6 +24,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=_read('requirements-production.txt'),
+    extras_require={'drf': _read('requirements-extras-drf.txt')},
     python_requires='>=3.5',
     classifiers=[
         'Environment :: Web Environment',
