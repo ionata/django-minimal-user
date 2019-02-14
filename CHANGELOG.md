@@ -1,4 +1,5 @@
 # DEV
+# 0.9.2
 - Add drf dependencies as optional package extras
 - Convert b64 email from bytes to string
 # 0.9.1

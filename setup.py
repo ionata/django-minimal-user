@@ -15,7 +15,7 @@ def _read(filename, as_lines=True):
 
 setup(
     name='django-minimal-user',
-    version='0.9.1',
+    version='0.9.2',
     description='Bare minimum user model for Django',
     long_description=_read('README.md', as_lines=False),
     author='Ionata Digital',
