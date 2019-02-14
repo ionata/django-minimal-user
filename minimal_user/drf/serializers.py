@@ -41,7 +41,7 @@ class PasswordResetSerializer(auth_serializers.PasswordResetSerializer):
 
     def get_email_context(self):
         email = self.data['email'].casefold().encode('utf-8')
-        return {'email_encoded': b64e(email)}
+        return {'email_encoded': b64e(email).decode('utf-8')}
 
     def get_email_options(self):  # pylint: disable=no-self-use
         return {
